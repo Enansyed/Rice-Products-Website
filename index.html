@@ -8,12 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              },
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
               fontFamily: {
                 Sora: ['Sora', 'serif']
               },
@@ -23,8 +22,11 @@
             fontFamily: {
                 poppins: ['Poppins', 'serif']
           }
+            }
+          }
         }
-      </script>
+      }
+    </script>
     <!-- fontawesome cdn -->
     <script src="https://kit.fontawesome.com/336c25f9cd.js" crossorigin="anonymous"></script>
     <!-- google fonts cdn -->
@@ -43,7 +45,7 @@
 </head>
 <body class="font-Sora">
     <header>
-     <nav class="lg:border-0 border-b-2 border-[#179800] md:container mx-auto">
+    <nav class="lg:border-0 border-b-2 border-[#179800] md:container mx-auto">
         <div class="navbar">
   <div class="flex-1 lg:mt-8">
     <div class="hidden md:dropdown">
@@ -63,13 +65,13 @@
       </div>
       <ul
         tabindex="0"
-        class="hidden md:menu md:menu-sm md:dropdown-content md:z-[1] md:mt-3 md:w-52 md:p-2 md:mr-52 md:ml-96">
+        class="hidden md:menu md:menu-sm md:dropdown-content md:z-[1] md:w-52 md:p-2 md:mr-52 md:ml-96">
         <li><a class="text-xl text-black">Product</a></li>
         <li><a class="text-xl text-black">Services</a></li>
         <li><a class="text-xl text-black">Contact us</a></li>
       </ul>
     </div>
-    <img class="lg:w-36 mb-2" src="c2-assets/logo-header.png" alt="">
+    <img class="lg:w-32 mb-3" src="c2-assets/logo-header.png" alt="">
   </div>
   <div class="navbar-center  hidden lg:flex">
     <ul class="gap-9 menu-horizontal  mt-3 mr-52 ml-96">
@@ -93,6 +95,17 @@
   
 </div>
     </nav>
+    
+    <!-- banner section  -->
+     <div class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF] space-y-10 mt-20">
+      <h2 class="font-semibold text-5xl text-center">Freshness <span class="text-green-600">You Can</span> <br>
+        <span class="text-green-600">Count</span> On, Prices You’ll Love!</h2>
+        <p class="text-center text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+        <div>
+          <img class="lg:w-auto lg:px-96" src="c2-assets/hero-vegetables.png" alt="">
+        </div>
+     </div>
+
     </header>
     <main>
 
